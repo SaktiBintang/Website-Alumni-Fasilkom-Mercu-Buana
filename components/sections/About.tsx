@@ -69,8 +69,8 @@ export function About() {
                     <h4 className="text-sm font-bold text-slate-900 font-heading">
                       Fakultas Ilmu Komputer
                     </h4>
-                    <p className="text-xs text-slate-600">
-                      Program Studi Teknik Informatika & Sistem Informasi
+                    <p className="text-xs text-slate-600 leading-snug">
+                      Program Studi Teknik Informatika, Sistem Informasi & Magister Sains Data
                     </p>
                   </div>
                 </div>

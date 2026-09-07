@@ -63,13 +63,13 @@ export function SectionHeading({
         viewport={{ once: true, margin: "-50px" }}
         transition={{ duration: 0.5, delay: 0.1 }}
         className={cn(
-          "text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold font-heading tracking-tight leading-tight",
+          "text-2xl sm:text-3xl lg:text-4xl font-extrabold font-heading tracking-tight leading-snug sm:leading-snug",
           dark ? "text-white" : "text-slate-900"
         )}
       >
         {title}{" "}
         {titleHighlight && (
-          <span className="gradient-text-blue bg-gradient-to-r from-blue-600 via-blue-700 to-sky-600">
+          <span className="gradient-text-blue bg-gradient-to-r from-blue-600 via-blue-700 to-sky-600 inline-block sm:inline [box-decoration-break:clone] [-webkit-box-decoration-break:clone]">
             {titleHighlight}
           </span>
         )}

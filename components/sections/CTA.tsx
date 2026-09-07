@@ -35,9 +35,9 @@ export function CTA({ onOpenJoinModal }: CTAProps) {
                 <span>Mari Terhubung Bersama</span>
               </div>
 
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-heading text-white tracking-tight leading-tight">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold font-heading text-white tracking-tight leading-snug">
                 Siap Menjadi Bagian dari Kemajuan{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-200">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-200 inline-block sm:inline [box-decoration-break:clone] [-webkit-box-decoration-break:clone]">
                   Fasilkom Mercu Buana?
                 </span>
               </h2>

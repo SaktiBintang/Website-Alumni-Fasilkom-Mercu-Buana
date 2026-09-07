@@ -64,7 +64,7 @@ export function Hero({ onOpenJoinModal }: HeroProps) {
             {/* Main Headline */}
             <motion.h1
               variants={itemVariants}
-              className="text-3xl sm:text-5xl lg:text-6xl font-extrabold font-heading text-slate-950 tracking-tight leading-[1.12]"
+              className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-heading text-slate-950 tracking-tight leading-[1.2]"
             >
               Merajut Sinergi,{" "}
               <span className="gradient-text-blue block sm:inline">
@@ -78,7 +78,7 @@ export function Hero({ onOpenJoinModal }: HeroProps) {
               variants={itemVariants}
               className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed text-balance"
             >
-              Selamat datang di portal resmi <strong>Fasilkom Techno MercuBuana</strong>. Wadah terintegrasi untuk lebih dari 5.800 alumni Teknik Informatika & Sistem Informasi dalam membangun jejaring karir global, riset teknologi, dan kontribusi nyata untuk almamater.
+              Selamat datang di portal resmi <strong>Ikatan Keluarga Alumni Fakultas Ilmu Komputer Universitas Mercu Buana</strong>. Wadah terintegrasi untuk ribuan alumni Teknik Informatika, Sistem Informasi & Magister Sains Data dalam membangun jejaring karir global, riset teknologi, dan kontribusi nyata untuk almamater.
             </motion.p>
 
             {/* CTA Buttons */}

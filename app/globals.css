@@ -51,11 +51,11 @@
   }
 
   .gradient-text-blue {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500 [box-decoration-break:clone] [-webkit-box-decoration-break:clone];
   }
 
   .gradient-text-accent {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-sky-500 to-blue-400;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-sky-500 to-blue-400 [box-decoration-break:clone] [-webkit-box-decoration-break:clone];
   }
 }
 

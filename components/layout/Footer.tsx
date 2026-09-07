@@ -60,7 +60,7 @@ export function Footer() {
             </Link>
 
             <p className="text-sm text-slate-400 leading-relaxed pr-4">
-              Wadah perkumpulan resmi alumni Fakultas Ilmu Komputer Universitas Mercu Buana. Menghubungkan lulusan Teknik Informatika & Sistem Informasi untuk kolaborasi karir, riset inovasi, dan kemajuan almamater.
+              Wadah perkumpulan resmi alumni Fakultas Ilmu Komputer Universitas Mercu Buana. Menghubungkan lulusan Teknik Informatika, Sistem Informasi & Magister Sains Data untuk kolaborasi karir, riset inovasi, dan kemajuan almamater.
             </p>
 
             {/* Social Icons */}

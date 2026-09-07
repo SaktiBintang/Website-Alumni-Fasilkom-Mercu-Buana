@@ -170,6 +170,7 @@ export function JoinModal({ open, onOpenChange }: JoinModalProps) {
                             >
                               <option value="Teknik Informatika">Teknik Informatika (S1)</option>
                               <option value="Sistem Informasi">Sistem Informasi (S1)</option>
+                              <option value="Magister Sains Data">Magister Sains Data (S2)</option>
                               <option value="Magister Ilmu Komputer">Magister Ilmu Komputer (S2)</option>
                             </select>
                           </div>
