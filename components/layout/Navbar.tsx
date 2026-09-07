@@ -95,19 +95,19 @@ export function Navbar({ onOpenJoinModal }: NavbarProps) {
             <div className="flex flex-col">
               <span
                 className={cn(
-                  "font-heading font-extrabold text-base sm:text-lg leading-tight tracking-tight transition-colors duration-300",
+                  "font-heading font-extrabold text-xs sm:text-sm md:text-base leading-tight tracking-tight transition-colors duration-300",
                   scrolled ? "text-slate-900" : "text-slate-900 drop-shadow-sm"
                 )}
               >
-                Fasilkom <span className="text-blue-600">Techno</span>
+                Ikatan Keluarga Alumni <span className="text-blue-600">Fakultas Ilmu Komputer</span>
               </span>
               <span
                 className={cn(
-                  "text-[10px] sm:text-xs font-medium tracking-wide uppercase transition-colors duration-300",
+                  "text-[10px] sm:text-xs font-semibold tracking-wide uppercase transition-colors duration-300",
                   scrolled ? "text-slate-500" : "text-slate-600"
                 )}
               >
-                Mercu Buana
+                Universitas Mercu Buana
               </span>
             </div>
           </Link>
@@ -205,11 +205,11 @@ export function Navbar({ onOpenJoinModal }: NavbarProps) {
                           <GraduationCap className="w-5 h-5" />
                         </div>
                         <div className="flex flex-col">
-                          <span className="font-heading font-bold text-sm text-slate-900">
-                            Fasilkom <span className="text-blue-600">Techno</span>
+                          <span className="font-heading font-bold text-xs sm:text-sm text-slate-900 leading-tight">
+                            Ikatan Keluarga Alumni <span className="text-blue-600">Fakultas Ilmu Komputer</span>
                           </span>
-                          <span className="text-[10px] text-slate-500 uppercase tracking-wide">
-                            Mercu Buana
+                          <span className="text-[10px] text-slate-500 font-semibold uppercase tracking-wide mt-0.5">
+                            Universitas Mercu Buana
                           </span>
                         </div>
                       </div>

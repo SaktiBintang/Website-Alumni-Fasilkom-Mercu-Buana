@@ -60,16 +60,6 @@ export function Hero({ onOpenJoinModal }: HeroProps) {
             animate="visible"
             className="lg:col-span-7 space-y-6 text-center lg:text-left"
           >
-            {/* Pill Badge */}
-            <motion.div variants={itemVariants} className="inline-flex">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white shadow-soft border border-blue-100/80 text-blue-800 text-xs sm:text-sm font-semibold">
-                <span className="flex h-2 w-2 relative">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
-                </span>
-                <span>Ikatan Alumni Fasilkom Universitas Mercu Buana</span>
-              </div>
-            </motion.div>
 
             {/* Main Headline */}
             <motion.h1

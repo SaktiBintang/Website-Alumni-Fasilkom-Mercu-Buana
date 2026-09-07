@@ -46,15 +46,15 @@ export function Footer() {
           {/* Col 1: Brand Info (4 cols) */}
           <div className="lg:col-span-4 space-y-4">
             <Link href="#beranda" className="flex items-center gap-3 group inline-flex">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-sky-500 text-white flex items-center justify-center shadow-lg shadow-blue-500/20">
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-sky-500 text-white flex items-center justify-center shadow-lg shadow-blue-500/20 shrink-0">
                 <GraduationCap className="w-6 h-6 transform group-hover:rotate-12 transition-transform" />
               </div>
               <div>
-                <span className="font-heading font-extrabold text-lg text-white block">
-                  Fasilkom <span className="text-sky-400">Techno</span>
+                <span className="font-heading font-bold text-base text-white block leading-tight">
+                  Ikatan Keluarga Alumni <span className="text-sky-400">Fakultas Ilmu Komputer</span>
                 </span>
-                <span className="text-xs text-slate-400 font-medium tracking-wide uppercase block">
-                  Mercu Buana
+                <span className="text-xs text-slate-400 font-medium tracking-wide uppercase block mt-1">
+                  Universitas Mercu Buana
                 </span>
               </div>
             </Link>
@@ -225,7 +225,7 @@ export function Footer() {
         {/* Bottom copyright bar */}
         <div className="pt-8 mt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <div className="flex items-center gap-1.5 text-center sm:text-left">
-            <span>&copy; {new Date().getFullYear()} Fasilkom Techno MercuBuana. Hak Cipta Dilindungi.</span>
+            <span>Dikelola oleh Fasilkom Techno Squad</span>
           </div>
 
           <div className="flex items-center gap-6">
