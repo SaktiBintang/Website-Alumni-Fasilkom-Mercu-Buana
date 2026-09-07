@@ -64,10 +64,10 @@ export function Hero({ onOpenJoinModal }: HeroProps) {
             {/* Main Headline */}
             <motion.h1
               variants={itemVariants}
-              className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-heading text-slate-950 tracking-tight leading-[1.2]"
+              className="text-2xl sm:text-3xl lg:text-4xl font-extrabold font-heading text-slate-950 tracking-tight leading-snug sm:leading-snug"
             >
               Merajut Sinergi,{" "}
-              <span className="gradient-text-blue block sm:inline">
+              <span className="gradient-text-blue block sm:inline [box-decoration-break:clone] [-webkit-box-decoration-break:clone]">
                 Menggerakkan Inovasi
               </span>{" "}
               Teknologi Masa Depan.
