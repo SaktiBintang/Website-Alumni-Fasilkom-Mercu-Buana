@@ -95,15 +95,18 @@ export function Navbar({ onOpenJoinModal }: NavbarProps) {
             <div className="flex flex-col">
               <span
                 className={cn(
-                  "font-heading font-extrabold text-xs sm:text-sm md:text-base leading-tight tracking-tight transition-colors duration-300",
+                  "font-heading font-bold text-xs sm:text-sm leading-tight tracking-tight transition-colors duration-300",
                   scrolled ? "text-slate-900" : "text-slate-900 drop-shadow-sm"
                 )}
               >
-                Ikatan Keluarga Alumni <span className="text-blue-600">Fakultas Ilmu Komputer</span>
+                Ikatan Keluarga Alumni
+              </span>
+              <span className="font-heading font-extrabold text-xs sm:text-sm leading-tight text-blue-600 tracking-tight">
+                Fakultas Ilmu Komputer
               </span>
               <span
                 className={cn(
-                  "text-[10px] sm:text-xs font-semibold tracking-wide uppercase transition-colors duration-300",
+                  "text-[9px] sm:text-[10px] font-semibold tracking-wider uppercase transition-colors duration-300",
                   scrolled ? "text-slate-500" : "text-slate-600"
                 )}
               >
@@ -206,9 +209,12 @@ export function Navbar({ onOpenJoinModal }: NavbarProps) {
                         </div>
                         <div className="flex flex-col">
                           <span className="font-heading font-bold text-xs sm:text-sm text-slate-900 leading-tight">
-                            Ikatan Keluarga Alumni <span className="text-blue-600">Fakultas Ilmu Komputer</span>
+                            Ikatan Keluarga Alumni
                           </span>
-                          <span className="text-[10px] text-slate-500 font-semibold uppercase tracking-wide mt-0.5">
+                          <span className="font-heading font-extrabold text-xs sm:text-sm text-blue-600 leading-tight">
+                            Fakultas Ilmu Komputer
+                          </span>
+                          <span className="text-[9px] sm:text-[10px] text-slate-500 font-semibold uppercase tracking-wider">
                             Universitas Mercu Buana
                           </span>
                         </div>

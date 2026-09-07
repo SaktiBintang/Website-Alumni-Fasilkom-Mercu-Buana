@@ -49,11 +49,14 @@ export function Footer() {
               <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-sky-500 text-white flex items-center justify-center shadow-lg shadow-blue-500/20 shrink-0">
                 <GraduationCap className="w-6 h-6 transform group-hover:rotate-12 transition-transform" />
               </div>
-              <div>
-                <span className="font-heading font-bold text-base text-white block leading-tight">
-                  Ikatan Keluarga Alumni <span className="text-sky-400">Fakultas Ilmu Komputer</span>
+              <div className="flex flex-col">
+                <span className="font-heading font-bold text-sm text-white leading-tight">
+                  Ikatan Keluarga Alumni
                 </span>
-                <span className="text-xs text-slate-400 font-medium tracking-wide uppercase block mt-1">
+                <span className="font-heading font-extrabold text-sm text-sky-400 leading-tight">
+                  Fakultas Ilmu Komputer
+                </span>
+                <span className="text-[10px] text-slate-400 font-semibold tracking-wider uppercase mt-0.5">
                   Universitas Mercu Buana
                 </span>
               </div>
